@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0102773307E4432002896DE /* QuickTasks Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D0102772307E4432002896DE /* QuickTasks Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0102774307E4432002896DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0102766307E4431002896DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0102771307E4432002896DE;
+			remoteInfo = "QuickTasks Watch App";
+		};
+		D0102782307E4434002896DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0102766307E4431002896DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0102771307E4432002896DE;
+			remoteInfo = "QuickTasks Watch App";
+		};
+		D010278C307E4434002896DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0102766307E4431002896DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0102771307E4432002896DE;
+			remoteInfo = "QuickTasks Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0102796307E4434002896DE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				D0102773307E4432002896DE /* QuickTasks Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D010276C307E4432002896DE /* QuickTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0102772307E4432002896DE /* QuickTasks Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickTasks Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0102781307E4434002896DE /* QuickTasks Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuickTasks Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D010278B307E4434002896DE /* QuickTasks Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuickTasks Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D0102776307E4432002896DE /* QuickTasks Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QuickTasks Watch App";
+			sourceTree = "<group>";
+		};
+		D0102784307E4434002896DE /* QuickTasks Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QuickTasks Watch AppTests";
+			sourceTree = "<group>";
+		};
+		D010278E307E4434002896DE /* QuickTasks Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QuickTasks Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D010276F307E4432002896DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D010277E307E4434002896DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D0102788307E4434002896DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0102765307E4431002896DE = {
+			isa = PBXGroup;
+			children = (
+				D0102776307E4432002896DE /* QuickTasks Watch App */,
+				D0102784307E4434002896DE /* QuickTasks Watch AppTests */,
+				D010278E307E4434002896DE /* QuickTasks Watch AppUITests */,
+				D010276D307E4432002896DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D010276D307E4432002896DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D010276C307E4432002896DE /* QuickTasks.app */,
+				D0102772307E4432002896DE /* QuickTasks Watch App.app */,
+				D0102781307E4434002896DE /* QuickTasks Watch AppTests.xctest */,
+				D010278B307E4434002896DE /* QuickTasks Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D010276B307E4432002896DE /* QuickTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0102797307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks" */;
+			buildPhases = (
+				D010276A307E4432002896DE /* Resources */,
+				D0102796307E4434002896DE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0102775307E4432002896DE /* PBXTargetDependency */,
+			);
+			name = QuickTasks;
+			productName = QuickTasks;
+			productReference = D010276C307E4432002896DE /* QuickTasks.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D0102771307E4432002896DE /* QuickTasks Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0102793307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks Watch App" */;
+			buildPhases = (
+				D010276E307E4432002896DE /* Sources */,
+				D010276F307E4432002896DE /* Frameworks */,
+				D0102770307E4432002896DE /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0102776307E4432002896DE /* QuickTasks Watch App */,
+			);
+			name = "QuickTasks Watch App";
+			productName = "QuickTasks Watch App";
+			productReference = D0102772307E4432002896DE /* QuickTasks Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0102780307E4434002896DE /* QuickTasks Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D010279A307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppTests" */;
+			buildPhases = (
+				D010277D307E4434002896DE /* Sources */,
+				D010277E307E4434002896DE /* Frameworks */,
+				D010277F307E4434002896DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0102783307E4434002896DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0102784307E4434002896DE /* QuickTasks Watch AppTests */,
+			);
+			name = "QuickTasks Watch AppTests";
+			productName = "QuickTasks Watch AppTests";
+			productReference = D0102781307E4434002896DE /* QuickTasks Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D010278A307E4434002896DE /* QuickTasks Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D010279D307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppUITests" */;
+			buildPhases = (
+				D0102787307E4434002896DE /* Sources */,
+				D0102788307E4434002896DE /* Frameworks */,
+				D0102789307E4434002896DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D010278D307E4434002896DE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D010278E307E4434002896DE /* QuickTasks Watch AppUITests */,
+			);
+			name = "QuickTasks Watch AppUITests";
+			productName = "QuickTasks Watch AppUITests";
+			productReference = D010278B307E4434002896DE /* QuickTasks Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0102766307E4431002896DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					D010276B307E4432002896DE = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D0102771307E4432002896DE = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D0102780307E4434002896DE = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D0102771307E4432002896DE;
+					};
+					D010278A307E4434002896DE = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D0102771307E4432002896DE;
+					};
+				};
+			};
+			buildConfigurationList = D0102769307E4431002896DE /* Build configuration list for PBXProject "QuickTasks" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0102765307E4431002896DE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D010276D307E4432002896DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D010276B307E4432002896DE /* QuickTasks */,
+				D0102771307E4432002896DE /* QuickTasks Watch App */,
+				D0102780307E4434002896DE /* QuickTasks Watch AppTests */,
+				D010278A307E4434002896DE /* QuickTasks Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D010276A307E4432002896DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D0102770307E4432002896DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D010277F307E4434002896DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D0102789307E4434002896DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D010276E307E4432002896DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D010277D307E4434002896DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D0102787307E4434002896DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0102775307E4432002896DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0102771307E4432002896DE /* QuickTasks Watch App */;
+			targetProxy = D0102774307E4432002896DE /* PBXContainerItemProxy */;
+		};
+		D0102783307E4434002896DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0102771307E4432002896DE /* QuickTasks Watch App */;
+			targetProxy = D0102782307E4434002896DE /* PBXContainerItemProxy */;
+		};
+		D010278D307E4434002896DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0102771307E4432002896DE /* QuickTasks Watch App */;
+			targetProxy = D010278C307E4434002896DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0102791307E4434002896DE /* Debug configuration for PBXProject "QuickTasks" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0102792307E4434002896DE /* Release configuration for PBXProject "QuickTasks" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0102794307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		D0102795307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		D0102798307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0102799307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickTasks;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.QuickTasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D010279B307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickTasks Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickTasks Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		D010279C307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickTasks Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuickTasks Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		D010279E307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "QuickTasks Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		D010279F307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lk.ac.sliit.QuickTasks-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "QuickTasks Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0102769307E4431002896DE /* Build configuration list for PBXProject "QuickTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0102791307E4434002896DE /* Debug configuration for PBXProject "QuickTasks" */,
+				D0102792307E4434002896DE /* Release configuration for PBXProject "QuickTasks" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0102793307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0102794307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks Watch App" */,
+				D0102795307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D0102797307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0102798307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks" */,
+				D0102799307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D010279A307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D010279B307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks Watch AppTests" */,
+				D010279C307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D010279D307E4434002896DE /* Build configuration list for PBXNativeTarget "QuickTasks Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D010279E307E4434002896DE /* Debug configuration for PBXNativeTarget "QuickTasks Watch AppUITests" */,
+				D010279F307E4434002896DE /* Release configuration for PBXNativeTarget "QuickTasks Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0102766307E4431002896DE /* Project object */;
+	validationLevel = 1;
+}
